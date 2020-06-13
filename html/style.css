@@ -1,0 +1,61 @@
+/*import font from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@0,100;0,300;1,700&family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
+:root{
+    --light-gray:#2b3032a1;
+    --primary-colour:#45ccb8;
+    --border:#2b303218;
+    --text-colour:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+.primary-color{
+   color: var(--primary-colour);
+}
+.bg-primary-color{
+    background-color: var(--primary-colour)!important;
+}
+.text-color{
+    color: var(--text-colour);
+}
+.font-roboto{
+    font-family: var(--roboto);
+}
+.lightblue{
+    color: lightblue;
+}
+/*header*/
+header{
+    background-color: var(--primary-colour);
+    font-family: var(--roboto);
+}
+.site-title{
+    font-family: var(--gugi);
+}
+.dropdown-item{
+    font-size: 0.7em;
+}
+.dropdown-toggle{
+    font-size: 0.7em;
+}
+.header-link{
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.colour{
+    color: white;
+}
+/*navgation menu*/
+.navbar-nav{
+    padding: 0.8em;
+}
+.nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray)!important;
+}
+.nav-item .nav-link{
+    padding: 0 1.3em;
+}
+.market-icon{
+    margin-right: 6.5rem !important;
+}
